@@ -91,3 +91,21 @@ nav{
 .navbar ul li:hover >  .dropdown-list{
     display: block;
 }
+
+.menu-toggle{
+    display: none;
+    margin-left: auto;
+    background-color: black;
+    color: whitesmoke;
+    width: 150px;
+    padding: 10px ;
+}
+
+@media screen and (max-width:890px){
+    .nav-list{
+        display: none;
+    }
+    .menu-toggle{
+        display: block;
+    }
+}
