@@ -43,7 +43,7 @@ nav{
 
 .nav-link{
     color: rgb(78, 74, 74);
-    padding-right: 20px;
+    padding:30px 20px;
     font-size: 18px;
     text-transform: uppercase;  
 }
@@ -97,7 +97,7 @@ nav{
     margin-left: auto;
     background-color: black;
     color: whitesmoke;
-    width: 150px;
+    width: 200px;
     padding: 10px ;
 }
 .fa-chevron-down{
@@ -105,10 +105,29 @@ float: right;
 }
 
 @media screen and (max-width:890px){
-    .nav-list{
-        display: none;
-    }
     .menu-toggle{
         display: block;
     }
+    .nav-list{
+        display: block;
+        position: absolute;
+        top: 7%;
+        right: 10%;
+       
+        width: 200px;
+        background-color: black;
+
+    }
+
+    .nav-list li{
+        margin-top: 30px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(32, 19, 19);      
+    }
+
+    .dropdown-list{
+        right: 100%;
+        top: 20%;
+    }
+    
 }
