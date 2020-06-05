@@ -79,11 +79,16 @@ nav{
 }
 
 .dropdown-link{
-    padding-left: 10px;
+    padding:30px 60px 25px 10px;
+    width: 150px;
+        height: 73px;
     text-transform: uppercase;
     color: black;   
 }
 
+.dropdown-link:hover{
+    color: white;
+}
 .navbar .dropdown-list{
     display: none;
 }
@@ -109,11 +114,10 @@ float: right;
         display: block;
     }
     .nav-list{
-        display: block;
+        display: none;
         position: absolute;
         top: 7%;
         right: 10%;
-       
         width: 200px;
         background-color: black;
 
@@ -129,5 +133,14 @@ float: right;
         right: 100%;
         top: 40%;
     }
-    
+
+    .dropdown-list li{
+        margin:0;
+        padding-top: 20px;
+        border-bottom: 1px solid white;
+        line-height: 40px;
+        width: 150px;
+        height: 73px;
+    }
+
 }
