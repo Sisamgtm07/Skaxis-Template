@@ -242,7 +242,8 @@ main{
 
  
 
-  .main-description .button{
+  .main-description .button
+  {
       padding: 12px;
       text-align: center;
       width: 180px;
@@ -300,4 +301,84 @@ main{
     color: white;
     position: absolute;
     top: 180px;
+}
+
+/*----------------
+Gallery
+------------------*/
+#gallery{
+    height: auto;
+    padding-bottom: 20px;
+    position: relative;
+}
+.gallery{
+    height: 30vh;
+    width: 100%;
+    margin: auto;
+}
+
+.row{
+     display: flex;
+     flex-wrap: wrap;
+     background-color: #E9E9E9;
+     border-radius: 20px;  
+     position: absolute;
+     top: -30%;
+     left: 13%;
+     right: 13%;   
+}
+.image{
+    flex: 25%;
+   padding: 20px;
+    
+}
+
+.image img {
+    width: 100%;
+  }
+
+  /* @media screen and (max-width:750px){
+      .image{
+        flex: 100%;
+        padding: 10px;
+      }
+      .row{ 
+         top: -30%;
+         left: 13%;
+         right: 13%;   
+    }
+   .button-gallery{
+    position: relative;
+   margin-top: 700px;
+   
+   }
+    
+   .gallery-btn{
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+   }
+
+
+  } */
+  
+.button-gallery{
+    text-align: center;
+    margin-top: 20px;
+     
+}
+
+.gallery-btn{
+      padding: 12px;
+      text-align: center;
+      width: 180px;
+      background-color: #D55A77;
+      color: white;
+      border: none;
+      font-size: 16px;
+      text-transform: uppercase;
+      cursor: pointer;
+      outline: none;
+     
 }
