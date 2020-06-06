@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-/* body{
-    font-family: 'Roboto', 'sans-serif';
-} */
+body{
+    overflow-x: hidden;
+}
 a{
     text-decoration: none;
     color: white;
@@ -145,13 +145,20 @@ float: right;
 
 }
 
+
+/*-----------------------------
+MAIN SECTION
+------------------------------*/
+
 main{
     margin: auto;
     width: 100%;
     height: 100vh;
-    background:linear-gradient(rgba(250, 244, 244, 0.349),rgba(0, 0, 0, 0.61)),
+    background:linear-gradient(to top left,rgba(167, 160, 158, 0.89),rgba(167, 163, 163, 0.815)),
      url("../img/hero.jpg") center no-repeat;
+   
      position: relative;
+     font-family: Georgia, 'Times New Roman', Times, serif;
 }
   .content {
     position: absolute;
@@ -176,12 +183,12 @@ main{
 
 .slick-prev path,
 .slick-next path {
-  fill: rgba(10, 0, 0, 0.4);
+  fill: none;
 }
 
 .slick-prev:hover path,
 .slick-next:hover path {
-  fill: black;
+  fill: none;
 }
 
 .slick-prev {
@@ -209,10 +216,10 @@ main{
   }
   .main-container {
     min-height: 200px;
-    color: white;
     font-size: 36px;
     width: 70%;
     text-align: center;
+    outline: none;
    
   }
   .main-container:hover {
@@ -223,8 +230,74 @@ main{
  
   .main-container .main-description {
     font-size: 20px;
-    font-style: italic;
-    line-height: 1.4 !important;
-    color: white;
+    line-height: 2 !important;
+    color: #3d3c3c;
+   
  
   }
+  .main-description h1{
+    font-style: italic;
+    font-weight: 400;
+  }
+
+ 
+
+  .main-description .button{
+      padding: 12px;
+      text-align: center;
+      width: 180px;
+      margin-top: 20px;
+      background-color: #D55A77;
+      color: white;
+      border: none;
+      font-size: 16px;
+      text-transform: uppercase;
+      cursor: pointer;
+      outline: none;
+  }
+
+  .main-description .button:hover
+  {
+      transition: all .5s ease-in-out;
+      background:linear-gradient(to top left,rgba(167, 160, 158, 0.89),rgba(167, 163, 163, 0.815));
+      border: 1px solid black;
+      color: black;
+      outline: none;
+}
+
+.main-description .button2{
+
+    background:linear-gradient(to top left,rgba(167, 160, 158, 0.89),rgba(167, 163, 163, 0.815));
+    border: 1px solid black;
+    color: black;
+    padding: 12px;
+    text-align: center;
+    width: 180px;
+    margin-top: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+.main-description .button2:hover{
+    transition: all .5s ease-in-out;
+    background:#D55A77;
+    color: white;
+    border: none;
+    outline: none;
+}
+.main-description input{
+    padding: 16px;
+    width: 40%;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.main-description .email-icon{
+    background-color: #D55A77;
+    padding:16px;
+    color: white;
+    position: absolute;
+    top: 180px;
+}
