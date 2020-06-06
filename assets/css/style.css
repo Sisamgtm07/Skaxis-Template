@@ -144,3 +144,87 @@ float: right;
     }
 
 }
+
+main{
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(250, 244, 244, 0.349),rgba(0, 0, 0, 0.61)),
+     url("../img/hero.jpg") center no-repeat;
+     position: relative;
+}
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    outline: none;
+   
+  }
+ 
+  
+  .slick-prev,
+.slick-next {
+  color: black;
+  opacity: 1;
+  /* height: 40px;
+  width: 40px; */
+  margin-top: -20px;
+  
+}
+
+.slick-prev path,
+.slick-next path {
+  fill: rgba(10, 0, 0, 0.4);
+}
+
+.slick-prev:hover path,
+.slick-next:hover path {
+  fill: black;
+}
+
+.slick-prev {
+    left: -35px;
+  }
+  
+  .slick-next {
+    right:-35px;
+  }
+
+  .slick-prev:before,
+.slick-next:before {
+  content: none;
+}
+
+
+.slick-dots li button:before {
+    color: rgba(255, 255, 255, 0.4);
+    opacity: 1;
+    font-size: 8px;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: #FFFFFF;
+  }
+  .main-container {
+    min-height: 200px;
+    color: white;
+    font-size: 36px;
+    width: 70%;
+    text-align: center;
+   
+  }
+  .main-container:hover {
+    cursor: -webkit-grab;
+    cursor: grab;
+  }  
+
+ 
+  .main-container .main-description {
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.4 !important;
+    color: white;
+ 
+  }
