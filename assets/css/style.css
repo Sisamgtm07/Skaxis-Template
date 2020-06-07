@@ -399,14 +399,12 @@ ARTICLE SECTION
 
 }
 
-.article .image{
-    border: 1px solid #D7D7D7;
-      
-}
 .article img{
-    /* max-width: 100%; */
+    max-width: 100%;
     width: auto;
     height: auto;
+    border:1px solid  #D7D7D7;
+    padding: 10px;
 
 }
 
