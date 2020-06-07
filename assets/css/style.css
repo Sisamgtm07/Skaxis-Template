@@ -451,3 +451,36 @@ ARTICLE SECTION
 .article-collection img{
     margin-bottom: 20px;
 }
+
+
+/*---------------------
+MEDIA MANAGEMENT
+-----------------------*/
+.social-media{
+    text-align: center;
+    margin: 20px 0;
+    background: linear-gradient(rgba(145, 79, 97, 0.801),rgba(145, 79, 97, 0.815)),
+                url("../img/istock-636247986.jpg") center;
+    padding: 40px;
+}
+.social-media .social-icon{
+  color: white;
+  background-color: #D55A77;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 20px;
+  margin-right:20px ;
+}
+
+.social-media h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #3d3c3c;
+}
+
+@media screen and (max-width:489px){
+    .social-media .social-icon{
+        padding: 16px;
+      margin-right:5px ;
+    }
+}
