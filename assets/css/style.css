@@ -314,7 +314,7 @@ main{
     outline: none;
 }
 .main-description .button2:hover{
-    transition: all .5s ease-in-out;
+    transition: .5s ease;
     background:#D55A77;
     color: white;
     border: none;
@@ -391,6 +391,14 @@ Gallery
      
 }
 
+.gallery-btn:hover,
+ .article-btn:hover
+{ 
+    background-color: white;
+    border: 1px solid;
+    color: black;
+    transition: .5s ease;
+}
 
 
 /*------------------------
@@ -532,4 +540,27 @@ CONTACT SECTION
 .contact-wrapper .form .contact-btn{
     margin: 20px 0;
     font-size: 20px;  
+}
+.contact-wrapper .form input[type="submit"]:hover{
+    background-color: white;
+    border: 1px solid;
+    color: black;
+    transition: .5s ease;
+}
+
+/*---------------------
+FOOTER
+----------------------*/
+
+footer{
+    border-top: 1px solid grey;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding: 20px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: grey;
+}
+.template{
+    margin-left: auto;
 }
